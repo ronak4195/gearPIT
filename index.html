@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gearPIT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/prem/1.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div id="announcement-bar">
+        <b>Win cashback upto <s>1000</s> 1500! </b>
+    </div>
+    <div id="shopify-section-header">
+        <div class="container">
+            <div class="header">
+                <nav class="header-navigation" role="navigation" onclick="myFunction()">
+                    <img src="/img/icon/burger_red.png" alt="" class="header-icon-image">
+                    <img src="/img/icon/close_red.png" alt="" class="header-icon-image close-image">
+                </nav>
+                <img src="/img/gearPIT_black_wo_bg.png" alt="gearPIT" class="logo-image">
+                <div id="header-content">
+                    <li><a class="active" href="index.html">HOME</a></li>
+                    <li><a href="helmets.html">HELMETS</a></li>
+                    <li><a href="ridinggears.html">RIDING GEARS</a></li>
+                    <li><a href="accessories.html">ACCESSORIES</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </div>
+                <div class="header-secondary-link">
+                    <div class="header-icon-list">
+                        <div><img src="/img/icon/search_red.png" alt="" class="header-icon-image"></div>
+                        <div><img src="/img/icon/profile_red.png" alt="" class="header-icon-image"></div>
+                        <div class="cart" onclick="cartopen()">
+                            <img src="/img/icon/shopping_bag_red.png" alt="" class="header-icon-image">
+                            <div class="number-of-items"><span class="noi">0</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="first-cover">
+        <h4>mega-offer-products</h4>
+        <h2>Super value deals</h2>
+        <h1>On all products</h1>
+        <p>Save more with coupons & up to 70% off!</p>
+        <button><a href="helmets.html">Shop Now</a></button>
+    </div>
+
+    <section id="why-we" class="section-p1">
+        <div class="why-we-card">
+            <img src="img/cards/f1.png" class="why-we-img" alt="Free Shipping">
+            <h6 class="why-we-text">Fast Delivery</h6>
+        </div>
+        <div class="why-we-card">
+            <img src="img/cards/f2.png" class="why-we-img" alt="Order Online">
+            <h6 class="why-we-text">Order Online</h6>
+        </div>
+        <div class="why-we-card">
+            <img src="img/cards/f3.png" class="why-we-img" alt="Save Money">
+            <h6 class="why-we-text">Save Money</h6>
+        </div>
+        <div class="why-we-card">
+            <img src="img/cards/f4.png" class="why-we-img" alt="Offline Store">
+            <h6 class="why-we-text">After Sale Service</h6>
+        </div>
+        <div class="why-we-card">
+            <img src="img/cards/f5.png" class="why-we-img" alt="Happy Customers">
+            <h6 class="why-we-text">Offline Support</h6>
+        </div>
+        <div class="why-we-card">
+            <img src="img/cards/f6.png" class="why-we-img" alt="24/7 Support">
+            <h6 class="why-we-text">24/7 Helpline</h6>
+        </div>
+    </section>
+
+    <section id="products" class="section-p1">
+        <div class="banner">
+            <h2 class="banner-text">Featured Products</h2>
+            <button>Explore More</button>
+        </div>
+
+        <div class="products-list">
+            <div class="product-card">
+                <a href=""><img src="img/products/CHE.png" class="product-image" alt=""></a>
+                <div class="product-description">
+                    <span>AXOR</span>
+                    <h5>Premium Gears</h5>
+                    <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="product-price"><h3>₹</h3><h4>11750</h4></div>
+                </div>
+                <button class="add-to-cart" onclick="cartopen()"><i class="fa fa-shopping-cart cart"></i></button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/products/j.png" class="product-image" alt="">
+                <div class="product-description">
+                    <span>RYNOX</span>
+                    <h5>Premium Gears</h5>
+                    <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="product-price"><h3>₹</h3><h4>11750</h4></div>
+                </div>
+                <button class="add-to-cart" onclick="cartopen()"><i class="fa fa-shopping-cart cart"></i></button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/products/b.png" class="product-image" alt="">
+                <div class="product-description">
+                    <span>ROYAL ENFIELD</span>
+                    <h5>Premium Gears</h5>
+                    <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="product-price"><h3>₹</h3><h4>11750</h4></div>
+                </div>
+                <button class="add-to-cart" onclick="cartopen()"><i class="fa fa-shopping-cart cart"></i></button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/products/j.png" class="product-image" alt="">
+                <div class="product-description">
+                    <span>ROYAL ENFIELD</span>
+                    <h5>Premium Gears</h5>
+                    <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="product-price"><h3>₹</h3><h4>11750</h4></div>
+                </div>
+                <button class="add-to-cart" onclick="cartopen()"><i class="fa fa-shopping-cart cart"></i></button>
+            </div>
+
+            <div class="product-card">
+                <img src="img/products/j.png" class="product-image" alt="">
+                <div class="product-description">
+                    <span>ROYAL ENFIELD</span>
+                    <h5>Premium Gears</h5>
+                    <div class="star">
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                        <i class="fa fa-star checked"></i>
+                    </div>
+                    <div class="product-price"><h3>₹</h3><h4>11750</h4></div>
+                </div>
+                <button class="add-to-cart" onclick="cartopen()"><i class="fa fa-shopping-cart cart"></i></button>
+            </div>
+        </div>
+        <div class="cart-sidebar">
+            <div class="cart-heading">
+                <h2><b>Your Cart</b></h2>
+                <span class="close-cart" onclick="cartclose()">
+                    <!-- <i class="fa fa-times"></i> -->
+                    <img src="/img/icon/close_button_black.png" alt="" class="header-icon-image">
+                </span>
+                <!-- <div class="cart-content"></div> -->
+            </div>
+            <ul class="cart-items"> 
+                <!-- Cart items go here -->
+            </ul>
+            <div class="total-sum">
+                <h3>Your Total: ₹ <span class="cart-total">0</span></h3>
+            </div>
+            <div class="clear-cart">
+                <button class="btn clear-cart clearcart" onclick="clearcart()">Clear Cart</button>
+                <button class="btn clear-cart checkout">Proceed</button>
+            </div>
+        </div>
+
+        <div class="burger-menu-sidebar">
+            <div class="burger-menu-list">
+                <ul class="burger-menu-list-items">
+                    <li class="menu-list-items"><a href="index.html">Home</a></li>
+                    <li class="menu-list-items"><a href="helmets.html">Helmets</a></li>
+                    <li class="menu-list-items"><a href="ridinggears.html">Riding Gears</a></li>
+                    <li class="menu-list-items"><a href="accessories.html">Accessories</a></li>
+                    <li class="menu-list-items"><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer">
+        <div class="footer-column">
+            <h3>Store</h3>
+            <a href="helmets.html">Helmets</a><br>
+            <a href="ridinggears.html">Riding Gears</a><br>
+            <a href="accessories.html">Accessories</a><br>
+        </div>
+        <div class="footer-column">
+            <h3>Support</h3>
+            <a href="shop.html">Shipping Policy</a><br>
+            <a href="shop.html">Refund/Exchange Policy</a><br>
+            <a href="shop.html">Accessories</a><br>
+        </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
