@@ -676,7 +676,7 @@ i {
 }
 
 
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 880px), screen and (max-height: 700px) {
     #announcement-bar {
         font-size: 11px;
         padding-block: 8px;
