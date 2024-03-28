@@ -730,7 +730,8 @@ i {
         display: none;
         background-color: white;
         background-size: cover;
-        height: 100vh;
+        min-height: 100vh;
+        min-width: 90vw;
         background-position: top;
         z-index: 999;
         right: 90vw;
