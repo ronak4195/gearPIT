@@ -14,6 +14,9 @@
     line-height: normal;
     font-size: 12px;
     font-weight: 500;
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }
 
 #shopify-section-header {
