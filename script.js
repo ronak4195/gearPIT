@@ -31,6 +31,10 @@ function cartclose() {
 function cartopen() {
   y.style.display = "block";
   x.style.display = "none";
+  a.style.display = "block";
+  b.style.display = "none";
+  w.style.display = "none";
+  k.style.display = "none";
   // z.classList.add("active");
 }
 
